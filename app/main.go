@@ -2,7 +2,8 @@ package main
 import (
     "fmt"
     "log"
-"net/http" )
+"net/http"
+)
 func messageHandler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprintf(w, "hello NY Times")
 }
